@@ -1,0 +1,38 @@
+header {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid white;
+}
+
+td:first-child {
+	width: 150px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-right: 20px;
+}
